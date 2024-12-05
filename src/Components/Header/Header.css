@@ -1,0 +1,71 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  height: 9vh;
+  padding: 10px;
+  box-shadow: 0px -1px 0px 0px #E4E5E8 inset;
+
+}
+
+.heading {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 20vw;
+  height: 8vh;
+}
+.heading p{
+    position: relative;
+    bottom: 2.4vh;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+.brief-case {
+  height: 40px;
+  width: 40px;
+}
+
+.navigation {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 25vw;
+  height: 8vh;
+  gap: 20px;
+}
+
+.saved-jobs{
+    display: flex;
+    gap: 20px;
+}
+.saved-jobs p{
+    color:  #9199A3;
+    
+    
+}
+.btn{
+  width: 35px;
+  height: 35px;
+  border-radius: 8px ;
+  border: 1px;
+  opacity: 0px;
+  position: relative;
+  top: 1vh;
+}
+
+.images-div{
+    gap: 20px;
+    /* border: 1px solid black; */
+    width: 10vw;
+    display: flex;
+
+
+}
+
+.bellRing{
+    position: relative;
+    top: 2vh;
+    height: 3vh;
+    width: 1.6vw;
+}
