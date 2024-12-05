@@ -9,7 +9,7 @@ const Header = () => {
     <div className="Header">
       <div className="heading">
         <img src={briefCase} alt="" srcset="" className="brief-case" />
-        <p>Exporin Solutions</p>
+        <p>Explorin Solutions</p>
       </div>
       <div className="navigation">
 
