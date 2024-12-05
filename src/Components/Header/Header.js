@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import bellRing from "./../../assests/BellRinging (1).png";
 import ellipse from "./../../assests/Ellipse 18.png";
-import briefCase from "./../../assests/briefcase 1.png";
+import briefCase from "./../../assests/briefcase 1.svg";
 
 const Header = () => {
   return (

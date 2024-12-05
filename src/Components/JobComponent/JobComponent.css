@@ -2,16 +2,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     gap: 20px; /* Space between cards */
-    margin-top: 20px;
+    margin-top: 2vh;
     width: 80vw;
-    margin: 100px auto;
+    margin-left: 10vw;
+    margin-top: 5vh;
   }
   
   .job-card {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     width: 325px;
@@ -28,7 +29,7 @@
   }
   
   .title {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 10px;
     font-weight: 500;
     text-align: left;
@@ -37,7 +38,7 @@
   .salary {
     display: flex;
     justify-content: flex-start; /* Space between remote and salary */
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 10px;
     gap: 10px;
   }
@@ -51,6 +52,7 @@
   .remote{
     color:  #0BA02C;
     background: #E7F6EA;
+    padding: 2px;
 
   }
   
@@ -75,6 +77,10 @@
     display: flex;
     flex-direction: column; /* Stack name and location vertically */
     justify-content: flex-start; /* Align text to the top */
+  }
+  .location{
+    display: flex;
+    gap: 2px;
   }
   
   .company-text p {
