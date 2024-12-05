@@ -10,15 +10,17 @@ const JobComponent = () => {
     <div className="job-list">
       {jobList.map((job, index) => (
         <div key={index} className="job-card">
-          <h2>{job.title}</h2>
+          <p className="title">{job.title}</p>
           <div className="salary">
             <p className="remote">{job.remote ? "Remote" : "On-site"}</p>
             <p className="salary-para">{job.salary}</p>
           </div>
           <div className="company">
             <img src={companyImg} alt="" />
-            <p>{job.company}</p>
-            <p>{job.location}</p>
+            <div className="company-text">
+              <p>{job.company}</p>
+              <p>{job.location}</p>
+            </div>
           </div>
         </div>
       ))}

@@ -4,7 +4,7 @@
     gap: 20px; /* Space between cards */
     margin-top: 20px;
     width: 80vw;
-    margin-left: 50px;
+    margin: 100px auto;
   }
   
   .job-card {
@@ -14,12 +14,14 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column; /* Stack elements vertically */
-    width:425px ;
+    width:325px ;
   }
   
-  .job-card h2 {
+  .title {
     font-size: 18px;
     margin-bottom: 10px;
+    font-weight: 500;
+    text-align: left;
   }
   
   .salary {
@@ -27,6 +29,7 @@
     justify-content: flex-start; /* Space between remote and salary */
     font-size: 14px;
     margin-bottom: 10px;
+    gap: 10px;
   }
   .salary-para{
     font-size: 14px;
@@ -43,24 +46,33 @@
   
   .company {
     display: flex;
-    align-items: center; /* Align company logo and text horizontally */
+    align-items: flex-start; /* Align logo and text at the top */
     gap: 10px; /* Space between logo and text */
     font-size: 14px;
   }
   
   .company img {
-    width: 48px; /* Set company logo size */
+    width: 48px; /* Set the logo size */
     height: 48px;
-    
   }
   
-  .company p {
+  .company-text {
+    display: flex;
+    flex-direction: column; /* Stack name and location vertically */
+    justify-content: flex-start; /* Align text to the top */
+  }
+  
+  .company-text p {
     margin: 0; /* Remove default margin */
+    white-space: nowrap; /* Prevent text from wrapping */
+    /* border: 1px solid black; */
+    text-align: left;
   }
   
-  .company p:first-child {
+  .company-text p:first-child {
     font-weight: bold; /* Make the company name bold */
   }
+  
   
   .job-card p {
     margin: 5px 0;
