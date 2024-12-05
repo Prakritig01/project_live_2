@@ -1,0 +1,38 @@
+.Footer {
+    background-color: #F37021;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 5vh;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    /* border: 1px solid black; */
+}
+
+.Footer img {
+    height: 20px;  /* Adjust the height for better visuals */
+    width: 10px;   /* Keep the width same for uniformity */
+    cursor: pointer;
+}
+
+.Footer .youtube {
+    position: relative;
+}
+
+.Footer .youtube img:first-child {
+    height: 14px;
+    width: 20px;
+}
+
+.Footer .youtube img:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 5.21px;
+}
