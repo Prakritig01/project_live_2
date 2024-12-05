@@ -1,0 +1,55 @@
+.Search-bar{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 4vh;
+    border: 1px solid #E4E5E8;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-job , .search-city{
+    width: 30vw;
+    height: 4vh;
+    /* border: 1px solid #E4E5E8; */
+    padding : 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+    
+
+}
+.devider{
+    
+    height: 6.8vh;
+    border: 1px solid #E4E5E8;
+}
+input{
+    border: none;
+}
+.extras{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icon,.target{
+    height: 24px;
+    width: 24px;
+}
+.find-job-btn{
+    width: 6vw;
+    font-size: 16px;
+    padding: 6px;
+    background-color: #F37021;
+    border: 1px solid  #F37021;
+    border-radius: 2px;
+    color: white;
+}
+
+.find-job-btn:hover {
+    background-color: #ed9056;
+}
