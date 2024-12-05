@@ -27,9 +27,6 @@
     transition:  0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
   }
   
-  
-  
-  
   .title {
     font-size: 18px;
     margin-bottom: 10px;
@@ -59,12 +56,17 @@
   
   .company {
     display: flex;
-    align-items: flex-start; /* Align logo and text at the top */
+    align-items:center; /* Align logo and text at the top */
+    justify-content: space-between;
     gap: 10px; /* Space between logo and text */
     font-size: 14px;
   }
+  .left{
+    display: flex;
+    gap: 10px;
+  }
   
-  .company img {
+  .company-logo {
     width: 48px; /* Set the logo size */
     height: 48px;
   }
@@ -88,6 +90,11 @@
   
   
   .job-card p {
-    margin: 5px 0;
+    margin: 2px 0;
   }
   
+  .bookmark{
+    height: 4vh;
+    width: 1.6vw;
+    
+  }

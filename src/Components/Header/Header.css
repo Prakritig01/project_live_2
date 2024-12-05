@@ -13,10 +13,11 @@
   width: 20vw;
   height: 8vh;
   align-items: center;
+  gap: 10px;
 }
 .heading p {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   text-wrap-mode: nowrap;
 }
 .brief-case {
