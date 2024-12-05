@@ -13,9 +13,22 @@
     padding: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    width:325px ;
+    flex-direction: column;
+    width: 325px;
+    background: #ffffff; /* Default solid background */
+    transition:  0.3s ease, box-shadow 0.3s ease, border 0.3s ease; /* Smooth transition */
   }
+  
+  .job-card:hover {
+    background: 
+                linear-gradient(90deg, #FFF6E6 0%, #FFFFFF 100%);
+    border: 1px solid #E4E5E8;
+    box-shadow: 0px 2px 18px 0px #18191C08; /* Hover shadow */
+    transition:  0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  }
+  
+  
+  
   
   .title {
     font-size: 18px;
