@@ -1,0 +1,68 @@
+.job-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between cards */
+    margin-top: 20px;
+    width: 80vw;
+    margin-left: 50px;
+  }
+  
+  .job-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    width:425px ;
+  }
+  
+  .job-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .salary {
+    display: flex;
+    justify-content: flex-start; /* Space between remote and salary */
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .salary-para{
+    font-size: 14px;
+    font-weight: 400;
+    color: #767F8C;
+
+  }
+
+  .remote{
+    color:  #0BA02C;
+    background: #E7F6EA;
+
+  }
+  
+  .company {
+    display: flex;
+    align-items: center; /* Align company logo and text horizontally */
+    gap: 10px; /* Space between logo and text */
+    font-size: 14px;
+  }
+  
+  .company img {
+    width: 48px; /* Set company logo size */
+    height: 48px;
+    
+  }
+  
+  .company p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .company p:first-child {
+    font-weight: bold; /* Make the company name bold */
+  }
+  
+  .job-card p {
+    margin: 5px 0;
+  }
+  
