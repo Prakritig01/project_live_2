@@ -91,7 +91,7 @@
   }
   
   .company-text p:first-child {
-    font-weight: bold; /* Make the company name bold */
+    font-weight: 500; /* Make the company name bold */
   }
   
   

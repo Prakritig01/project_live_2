@@ -10,7 +10,7 @@ const SearchBar = () => {
         <img src= {search} alt="" className="icon" />
         <input
           type="text"
-          placeholder="Search by: Job tittle, Position, Keyword..."
+          placeholder="Search by: Job tittle, Position,Keyword..."
         />
       </div>
       <div className="devider"></div>
